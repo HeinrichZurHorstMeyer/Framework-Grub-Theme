@@ -1,0 +1,30 @@
+# GRUB Framework linux theme
+# Designed for 2256x1504
+# By Heinrich zur Horst-Meyer
+
+# Global Property
+title-text: "Framework"
+desktop-image: "background.png"
+desktop-color: "#000000"
+terminal-font: "Terminus Regular 14"
+terminal-box: "terminal_box_*.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+# Show the boot menu
++ boot_menu {
+  left = 62%
+  top = 50%-80
+  width = 40%
+  height = 50%+80
+  item_font = "Noto Sans Mono Regular 40"
+  item_color = "#cccccc"
+  selected_item_color = "#ffffff"
+  item_height = 40
+  item_padding = 5
+  item_spacing = 10
+  item_align = left
+}
